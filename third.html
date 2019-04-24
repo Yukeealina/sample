@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> My third JavaScript</h1>
+	<p id='demo'> JavaScript can change the style of an HTML element.</p>
+
+<script>
+	function myFunction1(){
+		document.getElementById("demo").style.fontSize="25px";
+		document.getElementById("demo").style.color= "red";
+		document.getElementById("demo").style.background="yellow";
+	}
+
+	function myFunction2(){
+		document.getElementById("demo").style.fontSize="50px";
+		document.getElementById("demo").style.color= "blue";
+		document.getElementById("demo").style.background="pink";
+	}
+</script>
+
+<button type="botton" onclick="myFunction1()">Click me to red!</button>
+
+<button type="botton" onclick="myFunction2()">Click me to blue!</button>
+
+</body>
+</html>
